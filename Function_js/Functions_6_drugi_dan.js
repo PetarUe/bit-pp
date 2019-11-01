@@ -284,8 +284,23 @@ function median(array) {
 }
 console.log(median([3, 4, 6, 7, 8, 32, 43, 1]));
 
+/*10.Write a function to find the element that occurs most frequently.
+ */
+function numbers(array) {
+    var num = 0;
+    var counter = 0;
 
+    for (var i = 0; i < array.length; i++) {
+        var j = array[0];
+        if (array[i] === j) {
+            counter = num++;
+        }
+    }
 
+    return num;
+}
+var result = numbers([3, 4, 6, 7, 8, 32, 43, 3]);
+console.log(result);
 
 
 // SA CASA VEZBANJE 
@@ -304,3 +319,6 @@ function buildStarRow(char, rowLength) {
 }
 console.log(buildStarRow("*", 10));
 
+for (var i = 0; i < 5;) {
+    console.log("*");
+}
