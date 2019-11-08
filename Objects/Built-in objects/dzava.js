@@ -89,3 +89,21 @@ console.log(count([-1, 8.1, 3, 6, 2.3, 44, 2.11]));
 var b = 2;
 console.log(b++);
 */
+
+/*Zadatak 4.
+Write a function that finds the smallest element of a given array. The function should return an object that contains the smallest value and its last position in the array.
+Input: [1, 4, -2, 11, 8, 1, -2, 3]
+Output:  { minValue: -2, minLastIndex: 6 }*/
+
+function checkSmallest() {
+    var array = [1, 4, -2, 11, 8, 1, -2, 3];
+    var sortedArray = array.sort(function (a, b) { return a - b });
+    
+    var smallestNum = sortedArray[0];
+
+    for (var i = array.length - 1; i >= 0; i--) {
+        if (array[i] === smallestNum) {
+            var smallestIndex = i;
+        }
+    }
+}
