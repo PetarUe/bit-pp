@@ -1,0 +1,10 @@
+.first { 
+border-bottom: 1px solid black;
+}
+.upper{
+    text-transform: uppercase;
+}
+.middle {
+    background-color: blue;
+    color: white;
+}
