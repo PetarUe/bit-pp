@@ -1,0 +1,17 @@
+#field {
+    background-image: url(./img/field.png);
+    width: 100%;
+    height: 600px;
+    
+}
+div {
+    position: relative;
+}
+#player {
+    display: block;
+    position: absolute;
+    width: 110px;
+    height: 110px;  
+    z-index: 1;
+}
+
