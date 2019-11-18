@@ -1,0 +1,59 @@
+h1 {
+    text-align: center;
+}
+
+form {
+    border: solid 1px black;
+    width: 50%;
+    margin: 0px auto;
+}
+
+p {
+    padding-left: 10px;
+    font-weight: 500;
+}
+
+.error {
+    color: red;
+}
+
+.totalDuration {
+    text-align: right;
+}
+
+fieldset {
+    width: 92%;
+    margin: 0px auto;
+}
+
+label {
+    display: block;
+    padding: 5px 0px;
+}
+
+input {
+    width: 100%;
+    height: 2em;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+select {
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+    margin-bottom: 10px;
+    border: none;
+}
+
+.button {
+    color: white;
+    background-color: #4CAF4F;
+    border: none;
+    padding: 10px 0px 22px 0px;
+}
+
+.totalLength {
+    text-align: right;
+}

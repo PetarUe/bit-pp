@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Movie</title>
+</head>
+
+<body>
+    <h1>Movie Festival</h1>
+    <form action="" method="get">
+        <p>Please fill in the form</p>
+        <p>Movie</p>
+        <fieldset class="first">
+            <label for="title">Title</label>
+            <input type="text" name="title" id="title" class="first title" placeholder="Title">
+            <label for="duration">Length(min)</label>
+            <input type="number" name="duration" id="duration" class="first duration" placeholder="Length in min">
+            <select name="genre" class="first genre" id="genre">
+                <option value="-">-</option>
+                <option value="action">Action</option>
+                <option value="comedy">Comedy</option>
+                <option value="drama">Drama</option>
+            </select>
+            <div class="error"></div>
+            <input type="button" value="Create movie" class="button create-movie">
+            <div>
+                <ul class="movie-list"></ul>
+            </div>
+            <div class="totalLength"></div>
+        </fieldset>
+        <p>Program</p>
+        <fieldset>
+            <label for="date">Date</label>
+            <input type="date" name="date" id="date" class="date">
+            <input type="button" value="Create program" class="button create-program">
+            <div>
+                <ul class="movie-program"></ul>
+            </div>
+            <hr>
+            <label for="movie">Movie</label>
+            <select name="movie" class="movie" id="movie">
+                <option value="-">-</option>
+            </select>
+            <label for="program">Program</label>
+            <select name="program" class="program" id="program">
+                <option value="-">-</option>
+            </select>
+            <input type="button" value="Add movie to program" class="button add-movie-to-program">
+        </fieldset>
+    </form>
+
+
+    <!--  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="./js/entities.js"></script>
+    <script src="./js/form.js"></script> -->
+    <script src="./js/mvc-app.js"></script>
+</body>
+
+</html>
