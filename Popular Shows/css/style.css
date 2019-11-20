@@ -1,0 +1,23 @@
+.card {
+    padding-top: 2%;
+    text-align: center;
+    flex-direction: row-reverse;
+    width: 60%;
+    margin: 0 auto;
+    border: none;
+}
+
+header {
+    text-align: center;
+    width: 100%;
+    background-color: #343a40
+}
+
+.Bit {
+    color: white;
+}
+
+.searchInput {
+    border-radius: 5px;
+    margin: 1%;
+}
